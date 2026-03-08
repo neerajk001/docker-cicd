@@ -1,0 +1,15 @@
+{
+  "name": "express-users-api",
+  "version": "1.0.0",
+  "description": "A simple Node.js backend with Express and user CRUD routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["express", "api", "nodejs"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
