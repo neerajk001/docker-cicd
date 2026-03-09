@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
   res.send('Server is running');
 });
 
+app.get('/hello', (req, res) => {
+  res.send('Hello, World!');
+});
+
 // GET /health - Server status, uptime, and timestamp
 app.get('/health', (req, res) => {
   const uptimeSeconds = Math.floor((Date.now() - startTime) / 1000);
